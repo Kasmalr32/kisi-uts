@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keamanan Cloud untuk Blog Pribadi - Blog Pribadi</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Pribadi Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="post1.html">Post 1</a></li>
+                <li><a href="post2.html">Post 2</a></li>
+                <li><a href="../about.html">Tentang Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Keamanan Cloud untuk Blog Pribadi</h2>
+            <p class="post-date">19 April 2025</p>
+            
+            <p>Keamanan adalah aspek penting dalam mengelola blog di lingkungan cloud. Berikut adalah beberapa tips keamanan yang saya terapkan:</p>
+            
+            <h3>Keamanan Jaringan</h3>
+            <p>Menggunakan Security Group untuk mengontrol akses ke instance EC2. Saya hanya mengizinkan SSH dari IP publik saya, dan HTTP dari mana saja.</p>
+            
+            <h3>Keamanan Data</h3>
+            <p>Menggunakan Amazon S3 dengan konfigurasi yang tepat untuk menyimpan backup blog saya. Bucket dikonfigurasi untuk diakses hanya oleh saya (private access), dan mengaktifkan enkripsi sisi server.</p>
+            
+            <h3>Update dan Patch</h3>
+            <p>Menjaga sistem operasi dan perangkat lunak server web tetap diperbarui adalah hal yang sangat penting. Saya secara teratur menjalankan perintah `yum update` untuk memperbarui paket pada Amazon Linux AMI.</p>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Blog Pribadi. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
