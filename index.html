@@ -4,11 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Pribadi</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .post-preview {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        .post-preview h2 {
+            color: #007BFF;
+        }
+
+        .post-date {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+
+        .gallery {
+            margin-top: 40px;
+        }
+
+        .gallery h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .gallery-images img {
+            width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Blog Pribadi Saya</h1>
+        <h1>Blog Pribadi Saya Kasmal</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Beranda</a></li>
@@ -33,6 +116,15 @@
             <p>Tips dan trik untuk mengamankan blog pribadi di lingkungan AWS...</p>
             <a href="posts/post2.html">Baca selengkapnya</a>
         </article>
+
+        <section class="gallery">
+            <h3>Galeri Gambar</h3>
+            <div class="gallery-images">
+                <img src="img/gallery1.jpg" alt="Gambar 1">
+                <img src="img/gallery2.jpg" alt="Gambar 2">
+                <img src="img/gallery3.jpg" alt="Gambar 3">
+            </div>
+        </section>
     </main>
     
     <footer>
